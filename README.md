@@ -1,7 +1,7 @@
 # Terraform AWS Production Infrastructure
 
 This repository contains reusable Terraform modules and environment configs to deploy a production-ready web application infrastructure on AWS.
-
+```
 terraform-aws-prod-infra/
 ├── modules/
 │   ├── vpc/
@@ -23,7 +23,7 @@ terraform-aws-prod-infra/
 ├── scripts/
 │   └── deploy.sh
 └── README.md
-
+```
 
 ## 🔧 Components
 
