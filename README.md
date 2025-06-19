@@ -2,6 +2,29 @@
 
 This repository contains reusable Terraform modules and environment configs to deploy a production-ready web application infrastructure on AWS.
 
+terraform-aws-prod-infra/
+├── modules/
+│   ├── vpc/
+│   ├── ec2/
+│   ├── alb/
+│   ├── rds/
+│   └── s3/
+├── environments/
+│   ├── dev/
+│   │   ├── main.tf
+│   │   ├── variables.tf
+│   │   ├── terraform.tfvars
+│   │   └── backend.tf
+│   └── prod/
+│       ├── main.tf
+│       ├── variables.tf
+│       ├── terraform.tfvars
+│       └── backend.tf
+├── scripts/
+│   └── deploy.sh
+└── README.md
+
+
 ## 🔧 Components
 
 - VPC with public/private subnets across 2 AZs
