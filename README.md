@@ -26,7 +26,7 @@ terraform init
 terraform plan
 terraform apply
 
-
+```
 Implementing **strict access control policies** in Terraform-managed environments is crucial to secure infrastructure and avoid unintentional or malicious changes — especially in production. Here's a practical guide to enforce **environment-level access control**, tailored for DevOps teams using **AWS, Terraform, and Git-based workflows**.
 
 ---
@@ -65,8 +65,6 @@ Create **IAM roles** with scoped permissions based on environment (`dev`, `stagi
   ]
 }
 ```
-
----
 
 ### ✅ 2. **Use Terraform Workspaces or Separate State Files**
 
