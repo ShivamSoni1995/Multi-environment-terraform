@@ -2,7 +2,7 @@
 
 This repository contains reusable Terraform modules and environment configs to deploy a production-ready web application infrastructure on AWS.
 
-## í´§ Components
+## ðŸ”§ Components
 
 - VPC with public/private subnets across 2 AZs
 - NAT Gateway and custom route tables
@@ -13,16 +13,15 @@ This repository contains reusable Terraform modules and environment configs to d
 - CloudWatch alarms and logs
 - IAM roles and instance profiles
 
-## íº€ Environments
+## ðŸš€ Environments
 
 - `dev/` â€” development environment
 - `prod/` â€” production-grade environment with remote state
 
-## í³¦ Deployment
+## ðŸ“¦ Deployment
 
 ```bash
 cd environments/prod
 terraform init
 terraform plan
 terraform apply
-
